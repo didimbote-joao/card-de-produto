@@ -13,11 +13,13 @@ body {
   /* border-radius: 9.603px; */
   background: #d9cdf7;
   color: #271a45;
+  /* font-family: 'Crimson Pro', serif; */
+  font-family: "Lato", sans-serif;
 }
-:root{
+:root {
   --bg-url: url(./assets/360.svg);
 }
-.view{
+.view {
   --bg-url: url(./assets/x.svg);
 }
 #container1 {
@@ -80,4 +82,31 @@ body {
   border-radius: 999px;
   border: 0.5px solid #271a45;
   background: #d9cdf7;
+
+  text-align: center;
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 133.333% */
+  text-transform: uppercase;
+}
+#text1 {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 100%;
+}
+#text2 {
+  font-family: Crimson Pro;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+#text3 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 16px */
 }
