@@ -17,7 +17,9 @@ function viewSofa() {
     img.setAttribute("src", "./assets/image 2.png")
     img.setAttribute("alt", "Sofa Margarot ")
   }
-  function addshopping() {
-    alert("Produto adicionado à cesta")
-  }
+  
+}
+
+function addshopping() {
+  alert("Produto adicionado à cesta. Obrigado!")
 }
